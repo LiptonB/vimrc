@@ -405,6 +405,15 @@ vmap <leader>gV :Gitv! --all<cr>
 " Fast saving
 nmap <leader>w :w!<cr>
 
+" Tabs
+nnoremap <Leader>e :tabnew<CR>
+nnoremap <Leader>n :tabnext<CR>
+nnoremap <Leader>p :tabp<CR>
+nnoremap <Leader>. :tabnext<CR>
+nnoremap <Leader>m :tabp<CR>
+
+nnoremap <Leader>t :FZF<CR>
+
 " }
 
 " <Leader> Other {
