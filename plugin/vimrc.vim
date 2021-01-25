@@ -80,7 +80,7 @@ set linespace=0
 " }
 " Wrap {
 
-set textwidth=80
+set textwidth=88
 
 " Wrap long lines
 set nowrap
