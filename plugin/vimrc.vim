@@ -127,7 +127,7 @@ set numberwidth=4
 set colorcolumn=0
 " }
 " Conceal {
-set conceallevel=2
+set conceallevel=0
 set concealcursor=nc
 " }
 " Spelling {
@@ -502,13 +502,13 @@ endif
 " Abbreviations {
 " Commands {
 
-cabbrev git Git
+"cabbrev git Git
 
 " }
 " Replacements {
 
-iabbrev --- —
-iabbrev ... …
+"iabbrev --- —
+"iabbrev ... …
 
 " }
 " }
